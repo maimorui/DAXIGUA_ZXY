@@ -3,7 +3,7 @@
  */
 
 // 额外分数：修改数字
-let extraScore = 1;
+let extraScore = 2;
 
 // 无敌模式：true 改为 false
 let wuDi = true;
@@ -15,7 +15,7 @@ let firstFruit = 0;
 let reverseLevelUp = false;
 
 // 指定生成的水果：默认值: 不开启反转 0-5 开启反转 6-11，修改对应数字即可控制随机生成的水果范围
-const minRandomFruitNum = reverseLevelUp ? 6 : 0; // 生成随机水果最小值（0-10）0 为葡萄，9 为半个西瓜
+const minRandomFruitNum = reverseLevelUp ? 7 : 0; // 生成随机水果最小值（0-10）0 为葡萄，9 为半个西瓜
 const maxRandomFruitNum = reverseLevelUp ? 11 : 5; // 生成随机水果最大值（1-11）0 为葡萄，9 为半个西瓜
 let setFruits = {
   // 指定前几次生成的水果，可填入任意数量的数字，0 为葡萄，9 为半个西瓜
@@ -38,7 +38,7 @@ let clickChangeFruit = true;
 let adLink = '';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成大宝贝';
+document.getElementsByTagName("title")[0].innerText = '合成大家庭';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
